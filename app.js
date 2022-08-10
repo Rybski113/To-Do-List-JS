@@ -20,7 +20,7 @@ toDoButton.addEventListener('click', function() {
         paragraph.addEventListener('click', function() {
             paragraph.style.background = " rgb(199, 117, 117)";
         })
-        paragraph.addEventListener('dblclick', function() {
+        closeButton.addEventListener('click', function() {
             toDoContainer.removeChild(paragraph);
         })
     }
